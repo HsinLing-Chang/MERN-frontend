@@ -4,7 +4,7 @@ This is a simple blog fronted application.
 
 ## Description
 
-This is a frontend implementation of a blog application. Users can login, authenticate via JWT, and manage blog post by performing CRUD(Create, Read, Update and Delete).
+This is a frontend implementation of a blog application. Users can login, authenticate via JWT, and manage blog posts by performing CRUD(Create, Read, Update and Delete).
 
 ## Technologies Used
 
