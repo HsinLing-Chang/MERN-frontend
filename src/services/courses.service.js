@@ -73,7 +73,6 @@ class CourseService {
     } else {
       token = "";
     }
-
     return axios.post(
       API_URL + "/enroll/" + _id,
       {},

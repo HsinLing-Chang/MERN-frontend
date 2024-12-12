@@ -14,7 +14,6 @@ const CourseComponent = ({ currentUser, setCurrentUser }) => {
       if (currentUser.user.role == "instructor") {
         CoursesService.get(_id)
           .then((data) => {
-            console.log(data);
             setCourseData(data.data);
           })
           .catch((e) => {
